@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <title>Login</title>
 
     <!-- Podpięcie pliku CSS -->
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" type="text/css" href="login.css">
     <!-- Podpięcie pliku JavaScript -->
-    <script src="login.html"></script>
+    <script type="text/javascript" src="login.html"></script>
 </head>
 
 <body>
   <main id="main-holder">
     <h1 id="login-header">Login</h1>
-
+    <!-- formularz do logowania zawierający dwa pola tekstowe (nazwa użytkownika i hasło) i przycisk -->
     <form id="login-form">
       <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
       <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
+      <div id="login-error-msg"></div>
       <input type="submit" value="Login" id="login-form-submit">
     </form>
 
